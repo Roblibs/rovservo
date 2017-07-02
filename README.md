@@ -2,6 +2,7 @@
 Rover with servo motor instances
 
 # Limitations
+- cannot insert a model at its default position, so that editing creates a new offset, and not possible to adjust in editor as elements move separately
 - including a model with a plugin have no way to identify the plugin
 - the name goes back to the global model's name
 - adding a plugin does not override the original but results in plugins duplications
@@ -9,3 +10,5 @@ Rover with servo motor instances
 - Gazebo breaks the default position of the edited model and there is no way to move elements together
 - due to these limitations including models is not feasible, so insertion resulting in content copy will be used
 - Cannot insert a model in an orthogonal view, as it runs away to infinity
+- Orthographic view resets the zoom and loses small models
+- cannot adjust the position of inserted elements in text from the editor
